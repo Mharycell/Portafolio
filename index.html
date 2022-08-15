@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div class>
-        <header class="header">
+
+<!-- PRESENTACIÓN -->    
+    <div>
+        <header class="header"><a name="Home"></a>
             <nav class="header-nav"> 
                 <div>
                   <input class="input-menu" type="checkbox" id="menu-mobile">
@@ -17,12 +19,12 @@
                     <img class="fa-bars" src="./assets/iconos/menu 1.svg" alt="icon">
                   </label>
                   <ul class="header-nav_ul">
-                    <li class="nav-ul_li li1"><a href="#">Home</a></li>
-                    <li class="nav-ul_li li2"><a href="#">Servicios</a></li>
-                    <li class="nav-ul_li li3"><a href="#">Acerca de mí</a></li>
-                    <li class="nav-ul_li li4"><a href="#">Mis habilidades</a></li>
-                    <li class="nav-ul_li li5"><a href="#">Mi portafolio</a></li>
-                    <li class="nav-ul_li li6"><a href="#">Contacto</a></li>
+                    <li class="nav-ul_li li1"><a href="./index.html#Home">Home</a></li>
+                    <li class="nav-ul_li li3"><a href="./index.html#Acercademí">Acerca de mí</a></li>
+                    <li class="nav-ul_li li2"><a href="./index.html#Servicios">Servicios</a></li>
+                    <li class="nav-ul_li li4"><a href="./index.html#Mishabilidades">Mis habilidades</a></li>
+                    <li class="nav-ul_li li5"><a href="./index.html#Miportafolio">Mi portafolio</a></li>
+                    <li class="nav-ul_li li6"><a href="./index.html#Contacto">Contacto</a></li>
                   </ul>
                 </div>
               </nav>
@@ -37,6 +39,7 @@
                 </div>
             </div>
 
+<!-- REDES -->
             <div class="redes"> 
                 <div>
                     <p class="tiempo">3 años</p>
@@ -46,11 +49,11 @@
                 <div class="content-iconos">
 
                         <div class="icons-perfect">
-                            <img class="imgs" src="./assets/iconos/cib_linkedin-in.svg" alt="Linkedin">
+                            <a href="https://www.linkedin.com/in/flor-maricel-l-b736bb150/"><img class="imgs" src="./assets/iconos/cib_linkedin-in.svg" alt="Linkedin"></a>
                         </div>
 
                         <div class="icons-perfect">
-                            <img class="imgs" src="./assets/iconos/ant-design_instagram-filled.svg" alt="Instagram">
+                            <a href="https://z-p15.www.instagram.com/mharycell/?hl=es-la"><img class="imgs" src="./assets/iconos/ant-design_instagram-filled.svg" alt="Instagram"></a>
                         </div>
 
                         <div class="icons-perfect">
@@ -82,66 +85,120 @@
                 
                 </div>
                 
-            </div>
-
-            
+            </div>           
         </header>
 
-        <section class="about-me">
+<!-- ACERCA DE MÍ -->
+        <section class="about-me"><a name="Acercademí"></a>
             <h2>Acerca de mí</h2>
             <p class="description">Soy una persona creativa, apasionada, tenaz, con deseo constante de aprender, de construir... </p>
         </section>
 <!-- SERVICIOS -->
-        <section class="section-one">
-            <h2 class="servicios">Servicios</h2>
-            <div class="div-contenedor">
+        <div class="services"><a name="Servicios"></a>
+            <section class="section-one">
+                <h2 class="servicios">Servicios</h2>
                 <div class="overflow">
-                    <div class="card">
-                        <img src="./assets/iconos/iconoir_design-pencil.svg" alt="pencil">
-                        <h2 class="desing">UX/UI Desing</h2>
-                        <p class="info-desing">Desde diseño hasta implementación del desarrollo</p>
+                    <div class="div-contenedor">
+                        <div class="card">
+                            <img class="decoration" src="./assets/iconos/Ellipse 14.svg" alt="">
+                            <img class="icons-services" src="./assets/iconos/iconoir_design-pencil.svg" alt="pencil">
+                            <h2 class="desing">UX/UI Desing</h2>
+                            <p class="info-desing">Desde diseño hasta implementación del desarrollo</p>
+                        </div>
+            
+                        <div class="card">
+                            <img class="decoration" src="./assets/iconos/Ellipse 14.svg" alt="">
+                            <img class="icons-services" src="./assets/iconos/majesticons_speakerphone-line.svg" alt="speakerphone">
+                            <h2 class="desing" >Marketing</h2>
+                            <p class="info-desing">Desde diseño hasta implementación del desarrollo</p>
+                        </div>
+            
+                        <div class="card">
+                            <img class="decoration" src="./assets/iconos/Ellipse 14.svg" alt="">
+                            <img class="icons-services" src="./assets/iconos/feather_search.svg" alt="search">
+                            <h2 class="desing">Research</h2>
+                            <p class="info-desing">Desde diseño hasta implementación del desarrollo</p>
+                        </div>
                     </div>
+                </div>          
+            </section>
+        </div>
         
-                    <div class="card">
-                        <img src="./assets/iconos/majesticons_speakerphone-line.svg" alt="speakerphone">
-                        <h2 class="desing" >Marketing</h2>
-                        <p class="info-desing">Desde diseño hasta implementación del desarrollo</p>
-                    </div>
-        
-                    <div class="card">
-                        <img src="./assets/iconos/feather_search.svg" alt="search">
-                        <h2 class="desing">Research</h2>
-                        <p class="info-desing">Desde diseño hasta implementación del desarrollo</p>
-                    </div>
+
+<!-- HABILIDADES -->
+        <section class="habilidades1"><a name="Mishabilidades"></a>
+            <h2 class="habilidades"> Mis habilidades</h2> 
+            <article class="skills">
+                <div class="item">
+                    <p class="marketing">Marketing</p><p class="porcentaje">75%</p>                
+                    <div class="percent percent1"> <div class="percent-color percent-color1"></div></div>
                 </div>
-            </div>
-            
-            
-        </section>
-        
-         <section>
-            <h2> Mis habilidades</h2> 
+
+                <div class="item">
+                    <p class="ui-desing">UI Desing</p><p class="porcentaje">95%</p>                
+                    <div class="percent percent2"><div class="percent-color percent-color2"></div></div>
+                </div>
+
+                <div class="item">
+                    <p class="ux-research">UX/Research</p><p class="porcentaje">80%</p>                
+                    <div class="percent percent3"><div class="percent-color percent-color3 "></div></div>
+                </div>
+            </article>
         </section>
          
-
+<!-- MI PORTAFOLIO -->
           
-         <section>
-            <h2>Mi portafolio</h2> 
+        <section class="portafolio"><a name="Miportafolio"></a>
+            <h2 class="portafolio__tittle">Mi portafolio</h2> 
+            <div class="portafolio__overflow">  
+                <div class="portafolio__cards">
+                    <a href="https://bright-rugelach-b7bb1e.netlify.app" target="_blank">
+                        <div class="tarjeta">
+                            <img class="project" src="./assets/image/68349afe-bcc9-4656-a34e-fb83c6ab381a.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="tarjeta"></div>
+                    <div class="tarjeta"></div>                  
+                </div>      
+            </div>
         </section>
 
-         <div class="card">
-            
-         </div>
 
+<!-- CONTACTO -->         
           
-          <section>
-            <h2>Contacto</h2>
-            <img src="" alt="">
-            <img src="" alt="">
-          </section>
+        <section class="contacto"><a name="Contacto"></a>
+            <h2 class="contacto__tittle">Contacto</h2>
+            <div class="contacto__info">
+                <div class="contacto__info--card">
+                    <div class="contacto__info--card-info1">
+                        <img class="info__ellipse telefono" src="./assets/iconos/Ellipse 14.svg" alt="">
+                        <img class="info__phone-mail" src="./assets/iconos/phone 3.svg" alt="">  
+                        <p class="numero">Número de teléfono</p>
+                        <p class="number">+57 3214834344</p>             
+                    </div>
+                </div>
+                
+                <div class="contacto__info--card"> 
+                    <div class="contacto__info--card-info2">
+                        <img class="info__ellipse mail" src="./assets/iconos/Ellipse 14.svg" alt="">
+                        <img class="info__phone-mail" src="./assets/iconos/mail 3.svg" alt="">
+                        <p class="email">Email</p>
+                        <p class="correo">mharycell@hotmail.com</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
 
     </div>
-    <footer> derechos reservados</footer>-->
+    <footer>
+        <p>
+            Derechos reservados
+        </p> 
+        <p>
+            By: Maricel López
+        </p>
+    </footer>
 
 </body>
 </html>

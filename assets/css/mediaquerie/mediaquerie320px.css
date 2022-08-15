@@ -1,0 +1,529 @@
+@media screen and (min-width:320px) {
+  .fa-bars{ 
+    position: fixed;
+    top: .8rem;
+    right: .8rem;
+    font-size: 20px;
+  }
+  
+  .input-menu{
+    display: none;
+  }
+  
+  .header-nav_ul{
+    list-style: none;
+    position: absolute;
+    background-color: var(--darkblue);
+    max-width: calc(100% - 11.5rem);
+    right: 1rem;
+    top: 17rem;
+    padding: 1rem;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s linear;
+    z-index: 30;
+    border-radius: 10px;
+  }
+  
+  .nav-ul_li{
+    padding: 10px;
+  }
+  .input-menu:checked ~ .header-nav_ul{
+    left: 25%;
+    right: 25%;
+    opacity: 1;
+  }
+  a{
+    text-decoration: none;
+    color: var(--white);
+  }
+
+  .nav-ul_li:hover{
+    transform: scale(1.18);
+  }
+  a:hover{
+    color: var(--aquamarine);
+    transition: color 0.4s;
+  }
+
+  .content{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    top:-70px;
+  }
+
+  .tittle{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 50px;
+    z-index: 2;
+  }
+
+  .text{
+    font-size: 25px;
+  }
+
+  .linea1{
+    display: none;
+  }
+
+  .linea2{
+    width: 80%;
+    height: 2px;
+    background-color: var(--white);
+  }
+
+  .nombre{
+    color: var(--aquamarine);
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .profesion{
+    font-size: 20px;
+  }
+
+  .redes{
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+    z-index: 2;
+    
+  }
+
+  .icons-perfect{
+    width: 28px;
+    height: 28px;
+    background-color: var(--gray);
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .content-iconos{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .imgs{
+    width: 20px;
+    height: 20px;
+  }
+
+  .tiempo{
+    text-align: left;
+    font-size: 19px;
+    color: var(--aquamarine);    
+  }
+  
+  .experiencia{
+    color: var(--white);
+    font-size: 19px;
+  }
+
+  .foto{
+    width: 8rem;
+    height: 12rem;
+    padding: -100px;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+  }
+  .imagen{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkblue);
+    border-radius: 100%;
+  }
+
+  .rectangulo{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: var(--darkblue);
+    position: relative;
+    z-index: 3;
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: auto;    
+    border-radius: 10px;
+    top:-50px;
+  }
+
+  .box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+  }
+
+  .social-network{
+    width: 5rem;
+    height: 4rem;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+  }
+
+  .rectangulo_redes{
+    width: 50;
+    height: 50%;
+    background-color: transparent;
+    display: inline-block;
+    flex-direction: row;
+  }
+
+  h2{
+    color: var(--aquamarine);
+    text-align: center;
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  .about-me{
+    min-width: 300px;
+    max-width: 800px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .description{
+    padding: 20px 20px;
+    text-align: center;
+  }
+
+  .services{
+    display: flex;
+    width: 100% ;
+    margin-top: 4rem;
+    height: auto;
+    justify-content: center;
+  }
+
+  .section-one{
+    min-width: 300px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+  }
+
+  .overflow{    
+    overflow-y:hidden;
+    overflow-x:auto ;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .div-contenedor{
+    width: 50rem;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .servicios{
+    color: var(--aquamarine);
+  }
+
+  .card{
+    background-color: var(--white);
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+    color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .decoration{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    margin-top: 20px;
+  }
+  .icons-services{
+    z-index: 3;
+    position: relative;
+    top: -80px;
+    width: 90px;
+    height: 90px;
+  }
+
+.desing{
+  color: var(--darkblue);
+  text-align: center;
+  position: relative;
+  top: -60px;
+}
+
+.info-desing{
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+
+.habilidades{
+  font-size: 19px;
+  color: var(--aquamarine);
+  text-align: center;
+  padding: 20px 20px;
+  font-weight: bold;
+}
+
+.skills{
+  width: 94%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: justify;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 20px;
+  margin-left: 10px;
+}
+
+.item p{
+  display: inline-block;
+}
+
+.marketing{
+  text-align: left;
+  width: 50%;
+}
+
+.porcentaje{
+  text-align: right;
+  width: 50%;
+}
+
+.percent{
+  width: 100%;
+  height: 15px;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.percent-color1{
+  width: 75%;
+  height: 15px;
+  background-color: var(--aquamarine);
+  border-radius: 10px;
+}
+
+.percent-color2{
+  width: 95%;
+  height: 15px;
+  background-color: var(--aquamarine);
+  border-radius: 10px;
+}
+
+.percent-color3{
+  width: 80%;
+  height: 15px;
+  background-color: var(--aquamarine);
+  border-radius: 10px;
+}
+
+.contacto{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contacto__tittle{
+  color: var(--aquamarine);
+}
+
+.contacto__info{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+padding-bottom: 40px;
+margin-top: 20px;
+}
+
+.contacto__info--card{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contacto__info--card-info1{
+  position: relative;
+  left: 10px;
+  height: 160px;
+  width: 160px;
+  background-color: var(--white);
+  padding-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+} 
+
+.info__ellipse{
+  width: 99%;
+  height: 99%;
+  position: relative;
+  z-index: 1;
+  top: 15px;
+}
+
+.info__phone-mail{
+  position: relative;
+  z-index: 2;
+  top: -50px;
+  width: 60px;
+}
+
+.numero{
+  color: var(--darkblue);
+  text-align: center;
+  gap: 20px;
+  position: relative;
+  top: -43px;
+  font-weight: bold;
+}
+
+.number{
+  color: var(--gray);
+  text-align: center;
+  position: relative;
+  top: -33px;
+}
+
+.telefono{
+  position: relative;
+  top: 8px;
+}
+.contacto__info--card-info2{
+  position: relative;
+  left: 52%;
+  width: 160px;
+  height: 160px;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+} 
+
+.email{
+  color: var(--darkblue);
+  font-weight: bold;
+  text-align: center;
+  gap: 20px;
+  position: relative;
+  top: -35px;
+}
+
+.correo{
+  color: var(--gray);
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+
+.portafolio{
+  margin-top: 4rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.portafolio__tittle{
+  color: var(--aquamarine);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.portafolio__overflow{
+  overflow-y:hidden;
+  overflow-x:auto ;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.portafolio__cards{
+  width: 50rem;
+  height: auto;
+  display: flex;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.tarjeta{
+  background-color: var(--white);
+  border-radius: 5px;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.project{
+  width: 180px;
+  height: 130px;
+}
+
+footer{
+  width: 100%;
+  height: 7rem;
+  background-color: var(--darkblue);
+  display: flex;
+  color: var(--aquamarine);
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+}
