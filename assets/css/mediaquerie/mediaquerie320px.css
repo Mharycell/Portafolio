@@ -1,50 +1,5 @@
 @media screen and (min-width:320px) {
-  .fa-bars{ 
-    position: fixed;
-    top: .8rem;
-    right: .8rem;
-    font-size: 20px;
-  }
   
-  .input-menu{
-    display: none;
-  }
-  
-  .header-nav_ul{
-    list-style: none;
-    position: absolute;
-    background-color: var(--darkblue);
-    max-width: calc(100% - 11.5rem);
-    right: 1rem;
-    top: 17rem;
-    padding: 1rem;
-    text-align: center;
-    opacity: 0;
-    transition: all .5s linear;
-    z-index: 30;
-    border-radius: 10px;
-  }
-  
-  .nav-ul_li{
-    padding: 10px;
-  }
-  .input-menu:checked ~ .header-nav_ul{
-    left: 25%;
-    right: 25%;
-    opacity: 1;
-  }
-  a{
-    text-decoration: none;
-    color: var(--white);
-  }
-
-  .nav-ul_li:hover{
-    transform: scale(1.18);
-  }
-  a:hover{
-    color: var(--aquamarine);
-    transition: color 0.4s;
-  }
 
   .content{
     display: flex;
@@ -135,16 +90,16 @@
   }
 
   .foto{
-    width: 8rem;
-    height: 12rem;
+    width: 15rem;
+    height: 20rem;
     padding: -100px;
     align-items: center;
     position: absolute;
     z-index: 1;
   }
   .imagen{
-    width: 15rem;
-    height: 15rem;
+    width: 25rem;
+    height: 25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -514,6 +469,11 @@ margin-top: 20px;
 }
 
 .trivia{
+  width: 180px;
+  height: 130px;
+}
+
+.responsive{
   width: 180px;
   height: 130px;
 }
