@@ -17,6 +17,7 @@
         position: relative;
         top: 50px;
         z-index: 2;
+        margin-left: 600px;
       }
     
       .text{
@@ -42,6 +43,10 @@
       .profesion{
         font-size: 40px;
       }
+
+      .ux{
+        font-size: 40px;
+      }
     
       .redes{
         width: 7rem;
@@ -53,6 +58,7 @@
         right: 80px;
         top: 70px;
         z-index: 2;
+        margin-right: 600px;
         
       }
     
@@ -64,6 +70,7 @@
         border-radius: 100%;
         justify-content: center;
         align-items: center;
+        top: 20px;
         
       }
     
@@ -89,16 +96,16 @@
       }
     
       .foto{
-        width: 8rem;
-        height: 12rem;
+        width: 17rem;
+        height: 23rem;
         padding: -100px;
         align-items: center;
         position: absolute;
         z-index: 1;
       }
       .imagen{
-        width: 15rem;
-        height: 15rem;
+        width: 30rem;
+        height: 30rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -110,7 +117,7 @@
         width: 80%;
         display: flex;
         justify-content: center;
-        height: 70px;
+        height: 100px;
         background-color: var(--darkblue);
         position: relative;
         z-index: 3;
@@ -118,7 +125,7 @@
         margin-left: auto;
         margin-right: auto;    
         border-radius: 10px;
-        top:-50px;
+        top:-70px;
       }
     
       .box{
@@ -161,10 +168,11 @@
         min-width: 300px;
         max-width: 800px;
         height: auto;
-    
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin-left: 400px;
+        font-size: 23px;
       }
     
       .description{
@@ -178,6 +186,7 @@
         margin-top: 4rem;
         height: auto;
         justify-content: center;
+        font-size: 23px;
       }
     
       .section-one{
@@ -250,7 +259,7 @@
     }
     
     .habilidades{
-      font-size: 19px;
+      font-size: 30px;
       color: var(--aquamarine);
       text-align: center;
       padding: 20px 20px;
@@ -310,6 +319,68 @@
       background-color: var(--aquamarine);
       border-radius: 10px;
     }
+        
+    .portafolio{
+      margin-top: 4rem;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px; 
+    }
+    
+    .portafolio__tittle{
+      color: var(--aquamarine);
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .portafolio__overflow{
+      overflow-y:hidden;
+      overflow-x:auto ;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    
+    .portafolio__cards{
+      width: 50rem;
+      height: auto;
+      display: flex;
+      gap: 20px;
+      padding: 0 10px;
+      margin-left: 300px;
+    }
+    
+    .tarjeta{
+      background-color: var(--white);
+      border-radius: 5px;
+      width: 350px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+    }
+    
+    .project{
+      width: 300px;
+      height: 280px;
+    }
+    
+    .trivia{
+      width: 300px;
+      height: 280px;
+    }
+    
+    .responsive{
+      width: 300px;
+      height: 280px;
+    }
+
     
     .contacto{
       width: 100%;
@@ -322,6 +393,7 @@
     
     .contacto__tittle{
       color: var(--aquamarine);
+      font-size: 30px;
     }
     
     .contacto__info{
@@ -337,13 +409,14 @@
     .contacto__info--card{
       width: 100%;
       margin-top: 20px;
+      margin-left: 600px;
     }
     
     .contacto__info--card-info1{
       position: relative;
       left: 10px;
-      height: 160px;
-      width: 160px;
+      height: 260px;
+      width: 260px;
       background-color: var(--white);
       padding-top: 10px;
       border-radius: 10px;
@@ -391,8 +464,8 @@
     .contacto__info--card-info2{
       position: relative;
       left: 52%;
-      width: 160px;
-      height: 160px;
+      width: 260px;
+      height: 260px;
       background-color: var(--white);
       border-radius: 10px;
       display: flex;
@@ -416,62 +489,7 @@
       position: relative;
       top: -30px;
     }
-    
-    .portafolio{
-      margin-top: 4rem;
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      gap: 10px; 
-    }
-    
-    .portafolio__tittle{
-      color: var(--aquamarine);
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
-    }
-    
-    .portafolio__overflow{
-      overflow-y:hidden;
-      overflow-x:auto ;
-      align-items: center;
-      text-align: center;
-      justify-content: space-between;
-      gap: 10px;
-    }
-    
-    .portafolio__cards{
-      width: 50rem;
-      height: auto;
-      display: flex;
-      gap: 20px;
-      padding: 0 10px;
-    }
-    
-    .tarjeta{
-      background-color: var(--white);
-      border-radius: 5px;
-      width: 200px;
-      height: 150px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      
-    }
-    
-    .project{
-      width: 180px;
-      height: 130px;
-    }
-    
-    .trivia{
-      width: 180px;
-      height: 130px;
-    }
-    
+
     footer{
       width: 100%;
       height: 7rem;
@@ -488,4 +506,3 @@
     }
 
     
-}
